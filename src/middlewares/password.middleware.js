@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt";
-import { ApiError } from "../utils/apiError.js";
+import { ApiError } from "../utils/ApiError.js";
 import { asyncHandler } from "../utils/asyncHandler.js";
 
 export const hashPassword = asyncHandler(async (req, res, next) => {
